@@ -50,6 +50,7 @@
                 <td>{{ $no }}</td>
                 <td>{{ $contacts->name }}</td>
                 <td>{{ $contacts->phone }}</td>
+                <td></td>
                 <td>
                     <button wire:click="getContact({{ $contacts->id }})" type="submit" class="btn btn-info text-white">Edit</button>
                     <button wire:click="delete({{ $contacts->id }})" type="submit" class="btn btn-danger text-white">Hapus </button>
